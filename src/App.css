@@ -1,0 +1,55 @@
+/* src/styles.css */
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+nav {
+  width: 200px;
+  padding: 20px;
+  background-color: #111;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+nav button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.home {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile {
+  flex: 1;
+  padding: 20px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.chat {
+  flex: 1;
+  padding: 20px;
+}

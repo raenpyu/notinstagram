@@ -1,0 +1,19 @@
+/* src/components/home/Home.css */
+
+.home-container {
+    text-align: center;
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home-logo {
+    width: 50px; /* 로고 크기 조절 */
+    height: auto;
+    margin-right: 20px; /* 로고와 제목 사이의 간격 조절 */
+  }
+  

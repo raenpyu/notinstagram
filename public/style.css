@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-right {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home,
+.login,
+.signup,
+.create-post,
+.post-item {
+  padding: 2rem;
+  border: 1px solid #ccc;
+  margin: 1rem;
+}
+
+.post-item img {
+  max-width: 100%;
+}
+
+.post-item .comments {
+  margin-top: 1rem;
+}
